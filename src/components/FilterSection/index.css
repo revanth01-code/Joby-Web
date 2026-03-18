@@ -1,0 +1,56 @@
+/* Container for the entire filter section */
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+/* Group container for spacing */
+.filter-group-container {
+  margin-bottom: 10px;
+}
+
+/* Filter Headings */
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* Removes white dots/bullets from lists */
+.filters-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Align input and label horizontally */
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Checkbox and Radio appearance */
+.filter-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+  accent-color: #6366f1; /* Indigo color for the check/fill */
+}
+
+/* Label styling */
+.filter-label {
+  color: #f1f5f9;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Custom separator line */
+.separator {
+  border: 1px solid #475569;
+  margin: 20px 0;
+}
