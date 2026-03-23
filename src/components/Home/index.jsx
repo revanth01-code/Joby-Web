@@ -1,7 +1,11 @@
 import Header from "../Header"
+import { useNavigate } from "react-router-dom"
 import './index.css'
 
 const Home = ()=>{
+    
+    const navigate = useNavigate()
+
     return(
         <div>
             <Header />
@@ -12,7 +16,7 @@ const Home = ()=>{
                         Millions of people are searching for jobs, salary
                         information, company reviews, and interview questions.
                         </p>
-                        <button type="button">Find Jobs</button>
+                        <button type="button" onClick={() => navigate('/jobs')}>Find Jobs</button>
                     </div>
                 </div>
         </div>
